@@ -146,3 +146,12 @@ df.rename(columns={"Ranking":"Ranking 2023"}, inplace=True)
 # 6  TypeScript             5             5             7             9            10 
 df = df.set_index("Languages")
 print (df)
+#             Ranking 2023  Ranking 2022  Ranking 2021  Ranking 2020  Ranking 2019
+# Languages
+# Python                 3             4             3             4             4        
+# JavaScript             1             1             1             1             1        
+# HTML                   2             2             2             2             2        
+# SQL                    4             3             4             3             3        
+# PHP                   11            10            11             8             8        
+# Java                   7             6             5             5             5        
+# TypeScript             5             5             7             9            10      
